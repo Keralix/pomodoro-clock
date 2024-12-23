@@ -1,0 +1,102 @@
+body{
+    background-color:  #D0D9BE;
+}
+#container{
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 15vh;
+    width: 50%;
+    height: auto;
+    border-radius: 5vh;
+    background-color:  #8BA8A7;
+    
+    box-shadow: 7px 7px #a2a995;
+}
+#settings{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 30%;
+}
+#break-div{
+    margin-right: 10%;
+    padding: 1%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    background-color: #D77A37;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 7px 7px #799090;
+}
+#session-div{
+    margin-left: 10%;
+    padding: 1%;
+    
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    background-color: #EBBD64;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 7px 7px #799090;
+}
+#timer{
+    margin: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7fb3b1;
+    height: 25vh;
+    box-shadow: 7px 7px #799090;
+    border-radius: 10px;
+    color: #D0D9BE;
+}
+.label{
+    font-size: x-large;
+    color: #0f0f0f;
+    font-weight: bolder;
+    text-align: center;
+}
+#session-div button{
+    border: 0;
+    height: 40%;
+    width: 35%;
+    background-color: #D77A37;
+    border-radius: 10%;
+}
+#break-div button{
+    border: 0;
+    height: 40%;
+    width: 35%;
+    background-color: #EBBD64;
+    border-radius: 10%;
+}
+#button-controlls{
+    display: flex;
+    width:80%;
+    align-items: center;
+    justify-content: center;
+}
+#button-controlls button{
+    border: 0;
+    height: 7vh;
+    width: 7vh;
+    background-color: #6B5974;
+    border-radius: 10%;
+}
+#start_stop{
+    margin-right: 10%;
+}
+#timer-label{
+    font-size: xxx-large;
+}
+#time-left{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
